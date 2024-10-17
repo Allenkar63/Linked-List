@@ -71,5 +71,22 @@ int main() {
     return 0;
 }
 ```
+
+## Algorithm
+
+A linked list is a linear data structure in which elements are stored in nodes. Each node contains two parts: **data** and a **pointer** to the next node. It allows efficient insertion and deletion of elements at any position.
+
+### Steps:
+
+1. **Insertion:**
+   - Allocate a new node.
+   - If inserting at the beginning, update the head to point to the new node.
+   - If inserting at the end, traverse the list to the last node and update its next pointer to point to the new node.
+
+2. **Deletion:**
+   - If deleting from the head, update the head pointer to the next node.
+   - If deleting from the middle/end, traverse the list to find the node to be deleted and update the previous node’s pointer to bypass the deleted node.
+
+     
 ## Conclusion 
 In this topic we learnt about Linked List which is an essential topic of Data Structure and Algorithms.
